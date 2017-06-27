@@ -1,38 +1,16 @@
-// my first program in C++
+// Including the IoStream Library and the FizzBuzz Header 
 #include <iostream>
 #include "FizzBuzz.h"
 using namespace std;
 
-// void FizzBuzz(int number);
 
 int main(){
-  cout << "Hello World! 2";
-  // FizzBuzz(7);
-  // cout << "\n";
+  //Clearing the screen using cout
   cout << string(25, '\n');
+  //Creating a FizzBuzz Object
   FizzBuzz f;
+  //Calling the method FizzBuzzIt from the FizzBuzz Class
   f.FizzBuzzIt(5);
+  //Adding some space again
   cout << string(2, '\n');
 }
-
-// void FizzBuzz(int number){
-//   cout << "Soy la funcion FizzBuzz";
-//   if ((number % 3 == 0) && (number % 5 == 0)){
-//     cout << "FizzBuzz";
-//     return;
-//   }
-//
-//   if (number % 5 == 0){
-//     cout << "Buzz";
-//     return;
-//   }
-//
-//   if (number % 3 == 0){
-//     cout << "Fizz";
-//     return;
-//   }
-//
-//   cout << number;
-//
-//   return;
-// }
